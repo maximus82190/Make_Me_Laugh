@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Make_Me_Laugh/static/css/main.64f25f0e.css",
+    "main.js": "/Make_Me_Laugh/static/js/main.3d251d54.js",
+    "static/js/787.f8f50a40.chunk.js": "/Make_Me_Laugh/static/js/787.f8f50a40.chunk.js",
+    "index.html": "/Make_Me_Laugh/index.html",
+    "main.64f25f0e.css.map": "/Make_Me_Laugh/static/css/main.64f25f0e.css.map",
+    "main.3d251d54.js.map": "/Make_Me_Laugh/static/js/main.3d251d54.js.map",
+    "787.f8f50a40.chunk.js.map": "/Make_Me_Laugh/static/js/787.f8f50a40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64f25f0e.css",
+    "static/js/main.3d251d54.js"
+  ]
+}
