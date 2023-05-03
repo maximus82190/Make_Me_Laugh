@@ -59,3 +59,22 @@
 .neon-button:focus::after {
   opacity: 1;
 }
+
+.active {
+  animation: active 3s 1;
+}
+
+@keyframes active {
+  0% {
+    transform: translate(0, 10%);
+  }
+  50% {
+    transform: translate(0, 50%);
+  }
+  75% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(-1800deg);
+  }
+}

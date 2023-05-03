@@ -40,7 +40,6 @@ function App() {
       setAnotherJoke(false);
     }
     setIsActive(false);
-    console.log("click");
   };
 
   return (

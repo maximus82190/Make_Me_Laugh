@@ -1,10 +1,6 @@
 import classes from "./Setup.module.css";
 
 const Setup = (props) => {
-  //  const buttonPressHandler = (props) => {
-  //    props.onClick(event.target.value);
-  //  };
-
   return (
     <div className={classes.setup}>
       <button className={classes.button} onClick={props.onClick}>
