@@ -1,19 +1,20 @@
 import { useState } from "react";
-// import { motion } from "framer-motion";
-//import classes from "./LetsHearAnother.module.css";
 import "./LetsHearAnother.css";
 
 const LetsHearAnother = (props) => {
   const [isClicked, setIsClicked] = useState(false);
 
   const clickHandler = () => {
-    setIsClicked(true);
-    console.log("clicked");
-    props.onClick();
-    setTimeout(() => {
-      setIsClicked(false);
-      console.log("not clicked");
-    }, "5000");
+    if (!isClicked) {
+      setIsClicked(true);
+      props.onClick();
+      setTimeout(() => {
+        setIsClicked(false);
+        console.log("reset timer");
+      }, "5000");
+    } else {
+      return;
+    }
   };
 
   const buttonClassName = isClicked ? "neon__button active" : "neon__button";
